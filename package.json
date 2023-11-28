@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
+  "type": "module",
   "scripts": {
     "start": "web-dev-server --node-resolve --open --watch",
-    "build": "tsc --base=/goit-advancedjs-hw-01/",
+    "build": "tsc -p .",
     "watch": "tsc -w"
   },
   "keywords": [],
