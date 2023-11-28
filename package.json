@@ -2,8 +2,10 @@
   "name": "goit-advancedjs-hw-05",
   "version": "1.0.0",
   "description": "",
+  "main": "./dist/index",
   "scripts": {
-    "start": "web-dev-server --node-resolve --open --watch"
+    "start": "web-dev-server --node-resolve --open --watch",
+    "build": "tsc -p ."
   },
   "keywords": [],
   "author": "",
