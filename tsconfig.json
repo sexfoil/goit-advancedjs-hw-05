@@ -7,7 +7,7 @@
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "lib": ["DOM", "ES2021"],
+    "lib": ["dom", "ES2021"],
     "module": "es2020",
     "moduleResolution": "node",
     "preserveConstEnums": true,
@@ -17,8 +17,6 @@
     "sourceMap": true
   },
   "include": [
-    "**/*.ts",
-    "./src/**/*",
-    "./dist/**/*"
+    "**/*.ts"
   ]
 }
